@@ -23,7 +23,7 @@ from telegram.ext import (
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
 # ─── Конфиг ──────────────────────────────────────────────────────────────────
-BOT_TOKEN       = os.getenv("BOT_TOKEN", "ВАШ_ТОКЕН_ЗДЕСЬ")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 DB_PATH         = os.getenv("DB_PATH", "tasks.db")
 DEFAULT_TZ      = "Europe/Moscow"
 DEFAULT_MORNING = "09:00"
